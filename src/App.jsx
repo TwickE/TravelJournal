@@ -4,14 +4,20 @@ import data from "./data.js";
 
 function App() {
     const cards = data.map((item) => {
-        return <Card key={item.id} {...item} />;
+        return <Card
+         key={item.id} 
+         isLast={item.id === data.length}
+         {...item} 
+         />;
     });
 
     return (
-      <>
-        <Header />
-       {cards}
-      </>
+        <>
+            <Header />
+            <div className="cards-container">
+              {cards}
+            </div>
+        </>
     );
 }
 
