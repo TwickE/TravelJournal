@@ -3,10 +3,12 @@ import Card from "./Card.jsx";
 import data from "./data.js";
 
 function App() {
+    let count = 0
     const cards = data.map((item) => {
+        count ++
         return <Card
          key={item.id} 
-         isLast={item.id === data.length}
+         isLast={count === data.length}
          {...item} 
          />;
     });
