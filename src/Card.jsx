@@ -5,7 +5,7 @@ export default function Card(props) {
         <>
             <section className="card">
                 <img
-                    src={`./src/assets/${props.imageUrl}`}
+                    src={`./public/${props.imageUrl}`}
                     className="card-image"
                 />
                 <div className="card-content">
