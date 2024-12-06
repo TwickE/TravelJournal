@@ -1,4 +1,4 @@
 # TravelJournal
- Travel Journal ReactJS WebApp
+ A Travel Journal Website made with React JS
 
-![Business Card](https://github.com/TwickE/ReadmeImages/blob/main/TravelJournal.png?raw=true)
+![Travel Journal Interface](https://github.com/TwickE/ReadmeImages/blob/main/TravelJournal.png?raw=true)
